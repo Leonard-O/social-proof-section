@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60rem;
+    margin: 5rem auto 4rem;
+    /* padding: 2rem; */
+}
+
+.left {
+    width: 30rem;
+}
+
+.left>h1 {
+    color: hsl(300, 43%, 22%);
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-family: Spartan;
+    line-height: 3rem;
+}
+
+.left>p {
+    font-family: Spartan;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.rate {
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem;
+    margin: 3rem 4rem;
+    color: hsl(300, 43%, 22%);
+}
+
+h4 {
+    font-family: Spartan;
+    font-size: 10px;
+}
+
+.rate-1 {
+    display: flex;
+    border-radius: 0.2rem;
+}
+
+.rate-2 {
+    display: flex;
+    border-radius: 0.2rem;
+    /* margin-left: 2rem; */
+    position: relative;
+    right: -30px;
+}
+
+.rate-3 {
+    display: flex;
+    border-radius: 0.2rem;
+    /* margin-left: 4rem; */
+    position: relative;
+    right: -60px;
+}
+
+.stars {
+    padding-right: 2rem;
+}
+
+.cards-component {
+    display: flex;
+    width: 60.4rem;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    padding: 1.5rem;
+    width: 50rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.card2 {
+    position: relative;
+    top: 20px;
+}
+
+.card3 {
+    position: relative;
+    top: 40px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.profile {
+    width: 2.5rem;
+    height: 2.5rem;
+    /* object-fit: contain; */
+    border-radius: 2rem;
+}
+
+.name {
+    padding-left: 1rem;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-family: Spartan;
+}
+
+.name>p {
+    color: hsl(333, 80%, 67%);
+    font-family: Spartan;
+    font-size: 15px;
+}
+
+.description {
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5rem;
+    font-family: Spartan;
+    font-size: 11.5px;
+}
+
+
+/* Media quaries */
